@@ -15,6 +15,9 @@ exports.getAllReservations = function (req, res, next){
     });
 }
 
+//get all buildings
+
+
 
 executeMySQLQuery = function(sqlCommand){
     //logger.WriteInfo(`EMySQLQ - Attemping to execute query => ${sqlCommand}`);
